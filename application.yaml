@@ -9,6 +9,7 @@ spec:
         source:
                 repoURL: https://github.com/abhijeetdandekar333/kubernetes-mongodb-app.git
                 targetRevision: HEAD
+                path: dev
         destination:
                 server: https://kubernetes.default.svc
                 namespace: mongoapp
